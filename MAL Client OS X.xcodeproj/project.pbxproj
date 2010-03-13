@@ -10,6 +10,9 @@
 		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
 		3A2E772D114BF5BA00E6EC00 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E772C114BF5BA00E6EC00 /* Login.m */; };
 		3A2E7757114BF83500E6EC00 /* MAL Client OSX.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E7756114BF83500E6EC00 /* MAL Client OSX.icns */; };
+		3AB984A9114C3EAB00A92B05 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB984A8114C3EAB00A92B05 /* Sparkle.framework */; };
+		3AB984BF114C3F2C00A92B05 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3AB984BE114C3F2C00A92B05 /* dsa_pub.pem */; };
+		3AB984E1114C420300A92B05 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AB984A8114C3EAB00A92B05 /* Sparkle.framework */; };
 		3AFB365A114C295800C75E76 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3650114C295800C75E76 /* ASIFormDataRequest.m */; };
 		3AFB365B114C295800C75E76 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3652114C295800C75E76 /* ASIHTTPRequest.m */; };
 		3AFB365C114C295800C75E76 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3655114C295800C75E76 /* ASIInputStream.m */; };
@@ -25,6 +28,19 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3AB984E8114C420800A92B05 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3AB984E1114C420300A92B05 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -36,6 +52,8 @@
 		3A2E772B114BF5BA00E6EC00 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		3A2E772C114BF5BA00E6EC00 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		3A2E7756114BF83500E6EC00 /* MAL Client OSX.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "MAL Client OSX.icns"; sourceTree = "<group>"; };
+		3AB984A8114C3EAB00A92B05 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		3AB984BE114C3F2C00A92B05 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		3AFB364F114C295800C75E76 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
 		3AFB3650114C295800C75E76 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
 		3AFB3651114C295800C75E76 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
@@ -67,6 +85,7 @@
 				3AFB3662114C29DC00C75E76 /* CoreServices.framework in Frameworks */,
 				3AFB3667114C2A1900C75E76 /* SystemConfiguration.framework in Frameworks */,
 				3AFB366B114C2A3500C75E76 /* libz.1.2.3.dylib in Frameworks */,
+				3AB984A9114C3EAB00A92B05 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AB984A8114C3EAB00A92B05 /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -149,6 +169,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3AB984BE114C3F2C00A92B05 /* dsa_pub.pem */,
 				3A2E7756114BF83500E6EC00 /* MAL Client OSX.icns */,
 				8D1107310486CEB800E47090 /* MAL_Client_OS_X-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -184,6 +205,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				3AB984E8114C420800A92B05 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -220,6 +242,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
 				3A2E7757114BF83500E6EC00 /* MAL Client OSX.icns in Resources */,
+				3AB984BF114C3F2C00A92B05 /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +292,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -287,6 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -303,11 +334,13 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
+				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
 			};
 			name = Debug;
 		};
@@ -316,10 +349,12 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
+				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
 			};
 			name = Release;
 		};

@@ -13,6 +13,8 @@
 	IBOutlet NSTextField * fieldusername;
 	IBOutlet NSTextField * fieldpassword;
 	IBOutlet NSButton * loginbutton;
+	IBOutlet NSButton * rememberpassword;
+	IBOutlet NSProgressIndicator * loginprogress;
 }
 -(IBAction)startlogin:(id)sender;
 -(IBAction)quitapp:(id)sender;
