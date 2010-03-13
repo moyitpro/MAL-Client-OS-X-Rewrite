@@ -9,9 +9,15 @@
 /* Begin PBXBuildFile section */
 		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
 		3A2E772D114BF5BA00E6EC00 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E772C114BF5BA00E6EC00 /* Login.m */; };
-		3A2E7742114BF6A200E6EC00 /* Base64Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E7741114BF6A200E6EC00 /* Base64Category.m */; };
-		3A2E774A114BF75100E6EC00 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E7749114BF75100E6EC00 /* base64.c */; };
 		3A2E7757114BF83500E6EC00 /* MAL Client OSX.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E7756114BF83500E6EC00 /* MAL Client OSX.icns */; };
+		3AFB365A114C295800C75E76 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3650114C295800C75E76 /* ASIFormDataRequest.m */; };
+		3AFB365B114C295800C75E76 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3652114C295800C75E76 /* ASIHTTPRequest.m */; };
+		3AFB365C114C295800C75E76 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3655114C295800C75E76 /* ASIInputStream.m */; };
+		3AFB365D114C295800C75E76 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3657114C295800C75E76 /* ASINetworkQueue.m */; };
+		3AFB365E114C295800C75E76 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB3659114C295800C75E76 /* ASINSStringAdditions.m */; };
+		3AFB3662114C29DC00C75E76 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB3661114C29DC00C75E76 /* CoreServices.framework */; };
+		3AFB3667114C2A1900C75E76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB3666114C2A1900C75E76 /* SystemConfiguration.framework */; };
+		3AFB366B114C2A3500C75E76 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB366A114C2A3500C75E76 /* libz.1.2.3.dylib */; };
 		770B37ED0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -29,11 +35,21 @@
 		32CA4F630368D1EE00C91783 /* MAL_Client_OS_X_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAL_Client_OS_X_Prefix.pch; sourceTree = "<group>"; };
 		3A2E772B114BF5BA00E6EC00 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		3A2E772C114BF5BA00E6EC00 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
-		3A2E7740114BF6A200E6EC00 /* Base64Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Category.h; sourceTree = "<group>"; };
-		3A2E7741114BF6A200E6EC00 /* Base64Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Category.m; sourceTree = "<group>"; };
-		3A2E7748114BF75100E6EC00 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
-		3A2E7749114BF75100E6EC00 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
 		3A2E7756114BF83500E6EC00 /* MAL Client OSX.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "MAL Client OSX.icns"; sourceTree = "<group>"; };
+		3AFB364F114C295800C75E76 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		3AFB3650114C295800C75E76 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		3AFB3651114C295800C75E76 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		3AFB3652114C295800C75E76 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		3AFB3653114C295800C75E76 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		3AFB3654114C295800C75E76 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		3AFB3655114C295800C75E76 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		3AFB3656114C295800C75E76 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		3AFB3657114C295800C75E76 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		3AFB3658114C295800C75E76 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		3AFB3659114C295800C75E76 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		3AFB3661114C29DC00C75E76 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		3AFB3666114C2A1900C75E76 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3AFB366A114C2A3500C75E76 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		770B37EC0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = MAL_Client_OS_X_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAL_Client_OS_X_AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +64,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3AFB3662114C29DC00C75E76 /* CoreServices.framework in Frameworks */,
+				3AFB3667114C2A1900C75E76 /* SystemConfiguration.framework in Frameworks */,
+				3AFB366B114C2A3500C75E76 /* libz.1.2.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +95,17 @@
 			children = (
 				3A2E772B114BF5BA00E6EC00 /* Login.h */,
 				3A2E772C114BF5BA00E6EC00 /* Login.m */,
+				3AFB364F114C295800C75E76 /* ASIFormDataRequest.h */,
+				3AFB3650114C295800C75E76 /* ASIFormDataRequest.m */,
+				3AFB3651114C295800C75E76 /* ASIHTTPRequest.h */,
+				3AFB3652114C295800C75E76 /* ASIHTTPRequest.m */,
+				3AFB3653114C295800C75E76 /* ASIHTTPRequestConfig.h */,
+				3AFB3654114C295800C75E76 /* ASIInputStream.h */,
+				3AFB3655114C295800C75E76 /* ASIInputStream.m */,
+				3AFB3656114C295800C75E76 /* ASINetworkQueue.h */,
+				3AFB3657114C295800C75E76 /* ASINetworkQueue.m */,
+				3AFB3658114C295800C75E76 /* ASINSStringAdditions.h */,
+				3AFB3659114C295800C75E76 /* ASINSStringAdditions.m */,
 				77C82804067257F0000B614F /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
@@ -100,10 +130,9 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				3A2E7740114BF6A200E6EC00 /* Base64Category.h */,
-				3A2E7741114BF6A200E6EC00 /* Base64Category.m */,
-				3A2E7748114BF75100E6EC00 /* base64.h */,
-				3A2E7749114BF75100E6EC00 /* base64.c */,
+				3AFB3661114C29DC00C75E76 /* CoreServices.framework */,
+				3AFB3666114C2A1900C75E76 /* SystemConfiguration.framework */,
+				3AFB366A114C2A3500C75E76 /* libz.1.2.3.dylib */,
 			);
 			name = "MAL Client OS X";
 			sourceTree = "<group>";
@@ -205,8 +234,11 @@
 				77C8280E06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel in Sources */,
 				3A2E772D114BF5BA00E6EC00 /* Login.m in Sources */,
-				3A2E7742114BF6A200E6EC00 /* Base64Category.m in Sources */,
-				3A2E774A114BF75100E6EC00 /* base64.c in Sources */,
+				3AFB365A114C295800C75E76 /* ASIFormDataRequest.m in Sources */,
+				3AFB365B114C295800C75E76 /* ASIHTTPRequest.m in Sources */,
+				3AFB365C114C295800C75E76 /* ASIInputStream.m in Sources */,
+				3AFB365D114C295800C75E76 /* ASINetworkQueue.m in Sources */,
+				3AFB365E114C295800C75E76 /* ASINSStringAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
