@@ -1,0 +1,232 @@
+TMAL Client OS X
+v7
+r0
+t290190708.144406
+cCheck dependencies
+cProcessInfoPlistFile "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Info.plist" MAL_Client_OS_X-Info.plist
+cCopyStringsFile "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/MainMenu.xib"
+cProcessPCH /var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-gvihkbzwkaidnbawtltpyzsxrymj/MAL_Client_OS_X_Prefix.pch.gch MAL_Client_OS_X_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/MAL_Client_OS_X_DataModel.mom" "/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_DataModel.xcdatamodel"
+cCompileC "build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/main.o" "/Users/tohnominagi/Desktop/MAL Client OS X/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/MAL_Client_OS_X_AppDelegate.o" "/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/MacOS/MAL Client OS X" normal x86_64
+cTouch "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B1ECB8600000000000000EE
+t1260309382
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B50402C00000000000000EE
+t1263550508
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/InfoPlist.strings
+c000000004B9BBCD8000000000000005A
+t1268497624
+s90
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/MainMenu.xib
+c000000004B9BBCD80000000000020310
+t1268497624
+s131856
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.h
+c000000004B9BBCD80000000000000310
+t1268497624
+s784
+i<Cocoa/Cocoa.h>
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.m
+c000000004B9BBCD80000000000001E31
+t1268497624
+s7729
+i"MAL_Client_OS_X_AppDelegate.h"
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_DataModel.xcdatamodel
+c000000004B9BBCD80000000000000088
+t1268497624
+s136
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_Prefix.pch
+c000000004B9BBCD800000000000000A1
+t1268497624
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app
+t1268497908
+s102
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Info.plist
+t1268497898
+s923
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/MacOS/MAL Client OS X
+t1268497908
+s23016
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/PkgInfo
+t1268497898
+s8
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1268497898
+s90
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/English.lproj/MainMenu.nib
+t1268497899
+s29972
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/MAL_Client_OS_X_DataModel.mom
+t1268497907
+s488
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/MAL Client OS X.LinkFileList
+c000000004B9BBDEA0000000000000117
+t1268497898
+s279
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/MAL_Client_OS_X_AppDelegate.o
+t1268497907
+s44600
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/main.o
+t1268497907
+s5000
+
+N/Users/tohnominagi/Desktop/MAL Client OS X/main.m
+c000000004B9BBCD800000000000000FD
+t1268497624
+s253
+i<Cocoa/Cocoa.h>
+
+N/var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-fkqpvpgianlpppdgjgabpqjqmgek/MAL_Client_OS_X_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-gvihkbzwkaidnbawtltpyzsxrymj/MAL_Client_OS_X_Prefix.pch.gch
+t1268497907
+s51179824
+
+NMAL_Client_OS_X-Info.plist
+c000000004B9BBD1A00000000000003F7
+t1268497690
+s1015
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290190698#290190698#0(0"0(0#1#0"4317594832#0"0#
+
+CCompileC "build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/MAL_Client_OS_X_AppDelegate.o" "/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s290190707.302934
+e290190707.672830
+r1
+xCompileC
+xbuild/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/MAL_Client_OS_X_AppDelegate.o
+x/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.m290190707#290190707#0(0"0(0#0#72"/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.m4317594832#1268"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/MAL Client OS X.hmap" "-F/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/include" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/DerivedSources/x86_64" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/DerivedSources" -include /var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-gvihkbzwkaidnbawtltpyzsxrymj/MAL_Client_OS_X_Prefix.pch -c "/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_AppDelegate.m" -o "/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/MAL_Client_OS_X_AppDelegate.o"0#
+
+CCompileC "build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/main.o" "/Users/tohnominagi/Desktop/MAL Client OS X/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s290190707.071291
+e290190707.379961
+r1
+xCompileC
+xbuild/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/main.o
+x/Users/tohnominagi/Desktop/MAL Client OS X/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/tohnominagi/Desktop/MAL Client OS X/main.m290190707#290190707#0(0"0(0#0#49"/Users/tohnominagi/Desktop/MAL Client OS X/main.m4317594832#1222"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/MAL Client OS X.hmap" "-F/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/include" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/DerivedSources/x86_64" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/DerivedSources" -include /var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-gvihkbzwkaidnbawtltpyzsxrymj/MAL_Client_OS_X_Prefix.pch -c "/Users/tohnominagi/Desktop/MAL Client OS X/main.m" -o "/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/MainMenu.xib"
+s290190698.566595
+e290190699.730319
+r1
+xCompileXIB
+x/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib290190698#290190699#0(0"0(0#0#69"/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/MainMenu.xib4317594832#353"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/MainMenu.xib"0#
+
+CCopyStringsFile "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s290190698.563147
+e290190699.021129
+r1
+xCopyStringsFile
+x/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings290190698#290190699#0(0"0(0#0#74"/Users/tohnominagi/Desktop/MAL Client OS X/English.lproj/InfoPlist.strings4317594832#386"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/English.lproj"0#
+
+CDataModelCompile "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/MAL_Client_OS_X_DataModel.mom" "/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_DataModel.xcdatamodel"
+s290190707.066834
+e290190707.302708
+r1
+xDataModelCompile
+x/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/MAL_Client_OS_X_DataModel.mom
+x/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_DataModel.xcdatamodel
+lSLF07#2@88"Compile /Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_DataModel.xcdatamodel290190707#290190707#0(0"0(0#0#80"/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_DataModel.xcdatamodel4317594832#318"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 "/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_DataModel.xcdatamodel" "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Resources/MAL_Client_OS_X_DataModel.mom"0#
+
+CLd "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/MacOS/MAL Client OS X" normal x86_64
+s290190707.673023
+e290190708.137265
+r1
+xLd
+x/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/MacOS/MAL Client OS X
+xnormal
+xx86_64
+lSLF07#2@110"Link /Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/MacOS/MAL Client OS X290190707#290190708#0(0"0(0#0#0"4317594832#612"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug" "-F/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug" -filelist "/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/Objects-normal/x86_64/MAL Client OS X.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/MacOS/MAL Client OS X"0#
+
+CProcessInfoPlistFile "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Info.plist" MAL_Client_OS_X-Info.plist
+s290190698.554046
+e290190698.562833
+r1
+xProcessInfoPlistFile
+x/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Info.plist
+xMAL_Client_OS_X-Info.plist
+lSLF07#2@34"Process MAL_Client_OS_X-Info.plist290190698#290190698#0(0"0(0#0#69"/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X-Info.plist4317594832#352"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    builtin-infoPlistUtility MAL_Client_OS_X-Info.plist -genpkginfo "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-fkqpvpgianlpppdgjgabpqjqmgek/MAL_Client_OS_X_Prefix.pch.gch MAL_Client_OS_X_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-gvihkbzwkaidnbawtltpyzsxrymj/MAL_Client_OS_X_Prefix.pch.gch MAL_Client_OS_X_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s290190699.730665
+e290190707.066469
+r1
+xProcessPCH
+x/var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-gvihkbzwkaidnbawtltpyzsxrymj/MAL_Client_OS_X_Prefix.pch.gch
+xMAL_Client_OS_X_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile MAL_Client_OS_X_Prefix.pch290190699#290190707#0(0"0(0#0#69"/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_Prefix.pch4317594832#1114"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/MAL Client OS X.hmap" "-F/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/include" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/DerivedSources/x86_64" "-I/Users/tohnominagi/Desktop/MAL Client OS X/build/MAL Client OS X.build/Debug/MAL Client OS X.build/DerivedSources" -c "/Users/tohnominagi/Desktop/MAL Client OS X/MAL_Client_OS_X_Prefix.pch" -o /var/folders/j1/j1dCV12OH0q5SM+BwZH6H++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MAL_Client_OS_X_Prefix-gvihkbzwkaidnbawtltpyzsxrymj/MAL_Client_OS_X_Prefix.pch.gch0#
+
+CTouch "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app"
+s290190708.137451
+e290190708.144317
+r1
+xTouch
+x/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app
+lSLF07#2@80"Touch /Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app290190708#290190708#0(0"0(0#0#0"4317594832#151"    cd "/Users/tohnominagi/Desktop/MAL Client OS X"    /usr/bin/touch -c "/Users/tohnominagi/Desktop/MAL Client OS X/build/Debug/MAL Client OS X.app"0#
+
