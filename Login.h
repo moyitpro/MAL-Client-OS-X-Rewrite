@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface Login : NSObject {
+@interface Login : NSWindowController {
 	IBOutlet NSTextField * fieldusername;
 	IBOutlet NSTextField * fieldpassword;
 	IBOutlet NSButton * loginbutton;

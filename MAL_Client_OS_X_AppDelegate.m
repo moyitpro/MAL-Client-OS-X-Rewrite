@@ -7,11 +7,27 @@
 //
 
 #import "MAL_Client_OS_X_AppDelegate.h"
+#import "MALClientOSX.h"
+#import "AppController.h"
 
 @implementation MAL_Client_OS_X_AppDelegate
 
 @synthesize window;
-
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+	//Note: Keychain support not implemented yet, so nothing is loaded here yet
+	int httpstatuscode = [MALClientOSXTools vertifyCredentials:@"" Password:@""];
+	if (httpstatuscode == 200) {
+	//Open Main Window
+	
+	}
+		else{
+//Show Error
+			int choice = NSRunCriticalAlertPanel(@"MAL Client OS X was unable to log you in since you don't have the correct username and/or password", @"Check your username and password and try logging in again. If you recently changed your password, ener you new password and try again.", @"OK", nil, nil, 8);
+// Show Login Window
+			[AppController showloginwindow];
+		}
+}
 /**
     Returns the support directory for the application, used to store the Core Data
     store file.  This code uses a directory named "MAL_Client_OS_X" for
@@ -138,7 +154,6 @@
         [[NSApplication sharedApplication] presentError:error];
     }
 }
-
 
 /**
     Implementation of the applicationShouldTerminate: method, used here to

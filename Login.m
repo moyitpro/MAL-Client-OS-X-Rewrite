@@ -56,17 +56,20 @@
 					else if ( [rememberpassword state] == NO) {
 					//Check if Keychain for MAL Client OS X Exists
 					}*/
+					
+					//release
+					response = nil;
 				}
 					else {
 						//Login Failed, show error message
-						int choice = NSRunAlertPanel(@"MAL Client OS X was unable to log you in since you don't have the correct username and/or password", @"Check your username and password and try logging in again. If you recently changed your password, ener you new password and try again.", @"OK", nil, nil, 8);
+						int choice = NSRunCriticalAlertPanel(@"MAL Client OS X was unable to log you in since you don't have the correct username and/or password", @"Check your username and password and try logging in again. If you recently changed your password, ener you new password and try again.", @"OK", nil, nil, 8);
 						[loginbutton setEnabled: YES];
 						[loginbutton setKeyEquivalent:@"\r"];
-
 					}
-				[request release];
-				[url release];
-				[statusCode release];
+				//release
+				statusCode = nil;
+				request = nil;
+				url = nil;
 				}
 			}
 		}
