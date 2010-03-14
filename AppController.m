@@ -10,8 +10,5 @@
 #import "Login.h"
 
 @implementation AppController
-+(void)showloginwindow
-{
-	[login showWindow:self];
-}
+
 @end

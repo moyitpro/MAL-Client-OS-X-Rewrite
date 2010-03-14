@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
-		3A2E772D114BF5BA00E6EC00 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E772C114BF5BA00E6EC00 /* Login.m */; };
 		3A2E7757114BF83500E6EC00 /* MAL Client OSX.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E7756114BF83500E6EC00 /* MAL Client OSX.icns */; };
-		3A69A481114C7B4D00756A26 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A69A480114C7B4D00756A26 /* Login.xib */; };
+		3A539434114D39850083F5F3 /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A539433114D39850083F5F3 /* LoginWindow.xib */; };
 		3A69A4D7114C844400756A26 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69A4D6114C844400756A26 /* AppController.m */; };
 		3A69A515114C86B800756A26 /* MALClientOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69A514114C86B800756A26 /* MALClientOSX.m */; };
+		3A8DA98D114D50A600D175F8 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA98C114D50A600D175F8 /* Login.m */; };
 		3AB984A9114C3EAB00A92B05 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB984A8114C3EAB00A92B05 /* Sparkle.framework */; };
 		3AB984BF114C3F2C00A92B05 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3AB984BE114C3F2C00A92B05 /* dsa_pub.pem */; };
 		3AB984E1114C420300A92B05 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AB984A8114C3EAB00A92B05 /* Sparkle.framework */; };
@@ -52,14 +52,14 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MAL_Client_OS_X_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAL_Client_OS_X_Prefix.pch; sourceTree = "<group>"; };
-		3A2E772B114BF5BA00E6EC00 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
-		3A2E772C114BF5BA00E6EC00 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		3A2E7756114BF83500E6EC00 /* MAL Client OSX.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "MAL Client OSX.icns"; sourceTree = "<group>"; };
-		3A69A480114C7B4D00756A26 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		3A539433114D39850083F5F3 /* LoginWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginWindow.xib; sourceTree = "<group>"; };
 		3A69A4D5114C844400756A26 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		3A69A4D6114C844400756A26 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		3A69A513114C86B800756A26 /* MALClientOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALClientOSX.h; sourceTree = "<group>"; };
 		3A69A514114C86B800756A26 /* MALClientOSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALClientOSX.m; sourceTree = "<group>"; };
+		3A8DA98B114D50A600D175F8 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		3A8DA98C114D50A600D175F8 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		3AB984A8114C3EAB00A92B05 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		3AB984BE114C3F2C00A92B05 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		3AFB364F114C295800C75E76 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
@@ -123,9 +123,6 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A69A480114C7B4D00756A26 /* Login.xib */,
-				3A2E772B114BF5BA00E6EC00 /* Login.h */,
-				3A2E772C114BF5BA00E6EC00 /* Login.m */,
 				3AFB364F114C295800C75E76 /* ASIFormDataRequest.h */,
 				3AFB3650114C295800C75E76 /* ASIFormDataRequest.m */,
 				3AFB3651114C295800C75E76 /* ASIHTTPRequest.h */,
@@ -133,6 +130,8 @@
 				3AFB3653114C295800C75E76 /* ASIHTTPRequestConfig.h */,
 				3AFB3654114C295800C75E76 /* ASIInputStream.h */,
 				3AFB3655114C295800C75E76 /* ASIInputStream.m */,
+				3A8DA98B114D50A600D175F8 /* Login.h */,
+				3A8DA98C114D50A600D175F8 /* Login.m */,
 				3AFB3656114C295800C75E76 /* ASINetworkQueue.h */,
 				3AFB3657114C295800C75E76 /* ASINetworkQueue.m */,
 				3AFB3658114C295800C75E76 /* ASINSStringAdditions.h */,
@@ -155,6 +154,7 @@
 		29B97314FDCFA39411CA2CEA /* MAL Client OS X */ = {
 			isa = PBXGroup;
 			children = (
+				3A539433114D39850083F5F3 /* LoginWindow.xib */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -256,7 +256,7 @@
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
 				3A2E7757114BF83500E6EC00 /* MAL Client OSX.icns in Resources */,
 				3AB984BF114C3F2C00A92B05 /* dsa_pub.pem in Resources */,
-				3A69A481114C7B4D00756A26 /* Login.xib in Resources */,
+				3A539434114D39850083F5F3 /* LoginWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,6 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel in Sources */,
-				3A2E772D114BF5BA00E6EC00 /* Login.m in Sources */,
 				3AFB365A114C295800C75E76 /* ASIFormDataRequest.m in Sources */,
 				3AFB365B114C295800C75E76 /* ASIHTTPRequest.m in Sources */,
 				3AFB365C114C295800C75E76 /* ASIInputStream.m in Sources */,
@@ -278,6 +277,7 @@
 				3AFB365E114C295800C75E76 /* ASINSStringAdditions.m in Sources */,
 				3A69A4D7114C844400756A26 /* AppController.m in Sources */,
 				3A69A515114C86B800756A26 /* MALClientOSX.m in Sources */,
+				3A8DA98D114D50A600D175F8 /* Login.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +311,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../Shared/tohnominagi/InstalledProducts\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -333,6 +334,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../Shared/tohnominagi/InstalledProducts\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;

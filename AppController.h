@@ -9,8 +9,8 @@
 #import <Cocoa/Cocoa.h>
 @class Login;
 
-@interface AppController : NSManagedObject {
-	Login * login;
+@interface AppController : NSObject {
+
 }
-+(void)showloginwindow;
+
 @end

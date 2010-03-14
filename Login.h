@@ -19,5 +19,4 @@
 -(IBAction)startlogin:(id)sender;
 -(IBAction)quitapp:(id)sender;
 -(IBAction)registermal:(id)sender;
-
 @end

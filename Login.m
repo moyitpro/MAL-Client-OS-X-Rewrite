@@ -10,7 +10,20 @@
 #import "ASIHTTPRequest.h"
 
 @implementation Login
-
+-(void) awakeFromNib
+{
+	NSLog(@"Loaded Nib");
+}
+- (id)init {
+	self = [self initWithWindowNibName: @"LoginWindow"];
+	if (self) {
+		//
+	}
+	return self;
+}
+-(void)WindowDidLoad
+{
+}
 -(IBAction) startlogin:(id)sender
 {
 	//Start Login Process
@@ -76,7 +89,6 @@
 
 	
 	
-		
 -(IBAction) quitapp:(id)sender
 {
 	[NSApp terminate:self];
@@ -86,4 +98,5 @@
 	//Opens MAL Website to Register Page
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://myanimelist.net/register.php"]];
 }
+
  @end
