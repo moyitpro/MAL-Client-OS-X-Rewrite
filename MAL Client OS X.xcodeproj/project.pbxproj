@@ -25,7 +25,14 @@
 		3AFB3667114C2A1900C75E76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB3666114C2A1900C75E76 /* SystemConfiguration.framework */; };
 		3AFB366B114C2A3500C75E76 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFB366A114C2A3500C75E76 /* libz.1.2.3.dylib */; };
 		770B37ED0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel */; };
+		7793770111F537D1000ABA01 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 779376FB11F537D1000ABA01 /* NSObject+SBJSON.m */; };
+		7793770211F537D1000ABA01 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 779376FC11F537D1000ABA01 /* NSString+SBJSON.m */; };
+		7793770311F537D1000ABA01 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 779376FD11F537D1000ABA01 /* SBJSON.m */; };
+		7793770411F537D1000ABA01 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 779376FE11F537D1000ABA01 /* SBJsonBase.m */; };
+		7793770511F537D1000ABA01 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 779376FF11F537D1000ABA01 /* SBJsonParser.m */; };
+		7793770611F537D1000ABA01 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7793770011F537D1000ABA01 /* SBJsonWriter.m */; };
 		77C8280E06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m */; };
+		77E726BF11FBCE3A002E1B21 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E726BE11FBCE3A002E1B21 /* Security.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -77,9 +84,23 @@
 		3AFB3666114C2A1900C75E76 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3AFB366A114C2A3500C75E76 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		770B37EC0679A11B001EADE2 /* MAL_Client_OS_X_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = MAL_Client_OS_X_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		779376F411F537D1000ABA01 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		779376F511F537D1000ABA01 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		779376F611F537D1000ABA01 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		779376F711F537D1000ABA01 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		779376F811F537D1000ABA01 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		779376F911F537D1000ABA01 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		779376FA11F537D1000ABA01 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		779376FB11F537D1000ABA01 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		779376FC11F537D1000ABA01 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		779376FD11F537D1000ABA01 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		779376FE11F537D1000ABA01 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		779376FF11F537D1000ABA01 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7793770011F537D1000ABA01 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAL_Client_OS_X_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAL_Client_OS_X_AppDelegate.m; sourceTree = "<group>"; };
+		77E726BE11FBCE3A002E1B21 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* MAL_Client_OS_X-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "MAL_Client_OS_X-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MAL Client OS X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAL Client OS X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +115,7 @@
 				3AFB3667114C2A1900C75E76 /* SystemConfiguration.framework in Frameworks */,
 				3AFB366B114C2A3500C75E76 /* libz.1.2.3.dylib in Frameworks */,
 				3AB984A9114C3EAB00A92B05 /* Sparkle.framework in Frameworks */,
+				77E726BF11FBCE3A002E1B21 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +129,8 @@
 				3A69A514114C86B800756A26 /* MALClientOSX.m */,
 				77C8280B06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* MAL_Client_OS_X_AppDelegate.m */,
+				3A8DA98B114D50A600D175F8 /* Login.h */,
+				3A8DA98C114D50A600D175F8 /* Login.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -114,6 +138,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77E726BE11FBCE3A002E1B21 /* Security.framework */,
 				3AB984A8114C3EAB00A92B05 /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
@@ -123,6 +148,19 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				779376F411F537D1000ABA01 /* JSON.h */,
+				779376F511F537D1000ABA01 /* NSObject+SBJSON.h */,
+				779376F611F537D1000ABA01 /* NSString+SBJSON.h */,
+				779376F711F537D1000ABA01 /* SBJSON.h */,
+				779376F811F537D1000ABA01 /* SBJsonBase.h */,
+				779376F911F537D1000ABA01 /* SBJsonParser.h */,
+				779376FA11F537D1000ABA01 /* SBJsonWriter.h */,
+				779376FB11F537D1000ABA01 /* NSObject+SBJSON.m */,
+				779376FC11F537D1000ABA01 /* NSString+SBJSON.m */,
+				779376FD11F537D1000ABA01 /* SBJSON.m */,
+				779376FE11F537D1000ABA01 /* SBJsonBase.m */,
+				779376FF11F537D1000ABA01 /* SBJsonParser.m */,
+				7793770011F537D1000ABA01 /* SBJsonWriter.m */,
 				3AFB364F114C295800C75E76 /* ASIFormDataRequest.h */,
 				3AFB3650114C295800C75E76 /* ASIFormDataRequest.m */,
 				3AFB3651114C295800C75E76 /* ASIHTTPRequest.h */,
@@ -130,8 +168,6 @@
 				3AFB3653114C295800C75E76 /* ASIHTTPRequestConfig.h */,
 				3AFB3654114C295800C75E76 /* ASIInputStream.h */,
 				3AFB3655114C295800C75E76 /* ASIInputStream.m */,
-				3A8DA98B114D50A600D175F8 /* Login.h */,
-				3A8DA98C114D50A600D175F8 /* Login.m */,
 				3AFB3656114C295800C75E76 /* ASINetworkQueue.h */,
 				3AFB3657114C295800C75E76 /* ASINetworkQueue.m */,
 				3AFB3658114C295800C75E76 /* ASINSStringAdditions.h */,
@@ -278,6 +314,12 @@
 				3A69A4D7114C844400756A26 /* AppController.m in Sources */,
 				3A69A515114C86B800756A26 /* MALClientOSX.m in Sources */,
 				3A8DA98D114D50A600D175F8 /* Login.m in Sources */,
+				7793770111F537D1000ABA01 /* NSObject+SBJSON.m in Sources */,
+				7793770211F537D1000ABA01 /* NSString+SBJSON.m in Sources */,
+				7793770311F537D1000ABA01 /* SBJSON.m in Sources */,
+				7793770411F537D1000ABA01 /* SBJsonBase.m in Sources */,
+				7793770511F537D1000ABA01 /* SBJsonParser.m in Sources */,
+				7793770611F537D1000ABA01 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

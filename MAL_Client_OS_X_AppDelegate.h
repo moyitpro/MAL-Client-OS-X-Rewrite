@@ -25,4 +25,6 @@
 
 - (IBAction)saveAction:sender;
 
+- (NSDictionary *) animeListWithUserName:(NSString *)username;
+
 @end

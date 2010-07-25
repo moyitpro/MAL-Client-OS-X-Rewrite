@@ -17,15 +17,15 @@
 	ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
 	//Set Username
 	[request setUsername: u];
-	 [request setPassword: p];
-	  //Vertify Username/Password
-	  [request startSynchronous];
-	  // Get Status Code
-	  int statusCode = [request responseStatusCode];
-	  return statusCode;
-	  //release
-	  statusCode = nil;
-	  request = nil;
-	  url = nil;
+	[request setPassword: p];
+	//Vertify Username/Password
+	[request startSynchronous];
+	// Get Status Code
+	int statusCode = [request responseStatusCode];
+	return statusCode;
+	//release
+	/*statusCode = nil;
+	 request = nil;
+	 url = nil;*/
 }
 @end
